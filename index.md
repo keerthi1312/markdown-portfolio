@@ -20,3 +20,9 @@ layout: default
 
 {% include 05-emphasis.md %}
 <br>
+git fetch origin
+git checkout -b add-lists-emphasis origin/add-lists-emphasis
+git merge main
+git checkout main
+git merge --no-ff add-lists-emphasis
+git push origin main
